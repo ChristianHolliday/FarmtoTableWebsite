@@ -1,0 +1,165 @@
+.nav-link:link {
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 25px;
+}
+
+.nav-link:visited{
+    color:#ffffff;
+}
+
+.nav-link:hover {
+    color:#731c12;
+}
+
+.logo {
+    width: 200px;
+}
+
+.bg-custom {
+    background-color: #4e5b4b;
+}
+
+.index-custom h1 {
+    font-family: "Red Hat Display", serif;
+    color: #4e5b4b;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.index-custom p {
+    font-family: "Zilla Slab", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #bebfa3;
+    color: #000000;
+    font-family: "Red Hat Display", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bi {
+    color: #731c12; /*Colors social media buttons and adds space beween buttons*/
+    margin-right: 20px;
+}
+
+.bi:hover {
+    color:#9ca8b0; /*Adds color to the social media buttons when hover over*/
+}
+
+.footer .bi {
+    font-size: 1.5em; /*Makes social media buttons bigger*/
+}
+
+.footer h5 {
+    margin-top: 10px; /*Moves down footer h5, boldens the h5 in footer, colors h5 in footer*/
+    font-weight: 700; 
+    color: #000000;
+    font-size: 30px;
+}
+
+.footer p {
+    margin-top: 10px; /*Adds small gap between footer p and h5*/
+    color: #000000;
+    font-weight: 400;
+    font-family: "Zilla Slab", sans-serif;
+}
+
+.carousel-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondary-custom {
+    padding-bottom: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.secondary-custom h2 {
+    color: #4e5b4b;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.card-body {
+    background-color: #bebfa3;
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-body h3 {
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+
+.btn-custom {
+    background-color: #731c12;
+}
+
+.btn-custom:hover {
+    background-color: #9ca8b0;
+}
+
+.card {
+    margin-bottom: 150px;
+}
+
+/*Contact page CSS*/
+
+.contact-custom {
+    padding-bottom: 100px;
+    font-family: "Red Hat Display", serif;
+}
+
+.btn-primary {
+    background-color: #731c12;
+}
+
+.btn-primary:hover {
+    background-color: #4e5b4b;
+}
+
+.contact-custom h1 {
+    font-family: "Red Hat Display", serif;
+    padding-bottom: 30px;
+    color: #4e5b4b;
+}
+
+.contact-custom h2 {
+    font-family: "Red Hat Display", serif;
+    padding-bottom: 30px;
+    color: #4e5b4b;
+}
+
+.contact-custom h3 {
+    padding-bottom: 10px;
+    font-family: "Zilla Slab", sans-serif;
+}
+
+.contact-custom p {
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 20px;
+}
+
+.red-text {
+    color: #731c12;
+}
+
+.custom-contact-form {
+    font-family: "Red Hat Display", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
