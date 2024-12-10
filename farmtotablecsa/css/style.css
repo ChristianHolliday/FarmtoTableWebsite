@@ -23,11 +23,11 @@
     background-color: #4e5b4b;
 }
 
-.index-custom h1 {
+h1 {
     font-family: "Red Hat Display", serif;
-    color: #4e5b4b;
     font-weight: 600;
     font-size: 40px;
+    color: #4e5b4b;
 }
 
 .index-custom p {
@@ -54,14 +54,14 @@
 }
 
 .footer .bi {
-    font-size: 1.5em; /*Makes social media buttons bigger*/
+    font-size: 1.2em; /*Makes social media buttons bigger*/
 }
 
 .footer h5 {
     margin-top: 10px; /*Moves down footer h5, boldens the h5 in footer, colors h5 in footer*/
     font-weight: 700; 
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .footer p {
@@ -69,6 +69,7 @@
     color: #000000;
     font-weight: 400;
     font-family: "Zilla Slab", sans-serif;
+    font-size: 15px;
 }
 
 .carousel-padding {
@@ -79,7 +80,6 @@
 .secondary-custom {
     padding-bottom: 50px;
     font-size: 25px;
-    justify-content: center;
 }
 
 .secondary-custom h2 {
@@ -113,10 +113,6 @@
     background-color: #9ca8b0;
 }
 
-.card {
-    margin-bottom: 150px;
-}
-
 /*Contact page CSS*/
 
 .contact-custom {
@@ -133,7 +129,6 @@
 }
 
 .contact-custom h1 {
-    font-family: "Red Hat Display", serif;
     padding-bottom: 30px;
     color: #4e5b4b;
 }
@@ -162,4 +157,50 @@
     font-family: "Red Hat Display", serif;
     font-weight: 600;
     font-size: 20px;
+}
+
+/*About Us CSS*/
+
+.about-custom {
+    /*background-color: #9ca8b0;*/
+    /*padding: 20px;*/
+    border-radius: 8px;
+    color: #000000;
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 400;
+}
+
+/*Services CSS*/
+
+.card-body-services h3 {
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+
+.card-body-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+    background-color: #bebfa3;
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+  
+.card-body-services .btn-custom {
+    align-self: flex-end;
+    margin-top: 10px;             
+}
+
+.attribution {
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #9ca8b0;
+    text-align: right;
 }
