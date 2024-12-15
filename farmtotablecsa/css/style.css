@@ -187,7 +187,7 @@ h1 {
     padding: 10px;
     background-color: #bebfa3;
     font-family: "Zilla Slab", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     border-radius: 8px;
   }
@@ -203,4 +203,8 @@ h1 {
     font-style: italic;
     color: #9ca8b0;
     text-align: right;
+}
+
+.services-h1 {
+    padding-top: 20px;
 }
